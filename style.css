@@ -271,3 +271,55 @@ padding: 30px 0;
 	cursor:  pointer;
 	padding: 18px 0;
 }
+
+
+
+/*------------ about us page -------------*/
+
+.sub-header{
+	height: 50vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/02.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+
+.sub-header h1{
+	margin-top: 100px;
+}
+
+.about-us{
+	width: 80%;
+	margin: auto;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.aboutus-col{
+	flex-basis: 48%;
+	padding: 30px 2px;
+}
+
+.aboutus-col img{
+	width: 100%;
+}
+
+.aboutus-col h1{
+	padding-top: 0;
+}
+
+.aboutus-col p{
+	padding: 15px 0 25px;
+}
+
+.blue-btn{
+	color: #9ecff4;
+	border: 1px solid #9ecff4;
+	background: transparent;
+}
+
+.blue-btn:hover{
+	color: #fff ;
+}
